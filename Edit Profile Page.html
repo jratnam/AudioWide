@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+	.auto-style1 {
+		font-size: xx-large;
+		font-family: "Bell MT";
+	}
+	.auto-style2 {
+		margin-left: 40px;
+	}
+	.auto-style3 {
+		margin-left: 80px;
+	}
+	.auto-style4 {
+		font-family: "Bell MT";
+	}
+	.auto-style5 {
+		margin-top: 3rem;
+		font-family: "Bell MT";
+	}
+	</style>
+	<script>
+	var art1 = document.getElementById("artist1")
+	</script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+      	<p class="auto-style2">
+      <img src="../Artboard 1200 .png" width="100px" height="100px" class="auto-style3"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="navbar-brand" href="#"><span class="auto-style1">Edit Profile</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          </p>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Logout
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="auto-style5">Enter Information</h1>
+            <fieldset>
+          <legend><span class="auto-style4">Your Top 5 Artists</legend>
+          <p>
+            <label>#1</label></span>
+            <input type = "text"
+                   id = "artist1"
+                   placeholder = "Full name here" class="auto-style4" />
+            <span class="auto-style4">
+            <script>
+                localStorage.setItem("first_artist", "artist1" )
+            </script>
+          </p>
+          <p>
+            <label>#2</label></span>
+            <input type = "text"
+                   id = "artist2"
+                   placeholder = "Full name here" class="auto-style4" />
+            <span class="auto-style4">
+            <script>
+                localStorage.setItem("second_artist", "artist2" )
+            </script>
+          </p>
+          <p>
+            <label>#3</label></span>
+            <input type = "text"
+                   id = "artist3"
+                   placeholder = "Full name here" class="auto-style4" />
+            <span class="auto-style4">
+            <script>
+                localStorage.setItem("third_artist", "artist3" )
+            </script>
+          </p>
+          <p>
+            <label>#4</label></span>
+            <input type = "text"
+                   id = "artist4"
+                   placeholder = "Full name here" class="auto-style4" />
+            <span class="auto-style4">
+            <script>
+                localStorage.setItem("fourth_artist", "artist4" )
+            </script>
+          </p>
+          <p>
+            <label>#5</label></span>
+            <input type = "text"
+                   id = "artist5"
+                   placeholder = "Full name here" class="auto-style4" />
+            <span class="auto-style4">
+            <script>
+                localStorage.setItem("fifth_artist", "artist5" )
+            </script>
+          </p>
+        	</span>
+        </fieldset>
+          <fieldset>
+            <legend>Your Top 3 Genres</legend>
+            <p>
+              <label>Choose your favorite genre: </label>
+              </span>
+              <select class="auto-style4" name="Genre">
+                <option name = genre1">Pop</option>
+                <option name = genre1">Hip Hop / R&B</option>
+                <option name = genre1">Dance / EDM</option>
+                <option name = genre1">Country</option>
+                <option name = genre1">International</option>
+                <option name = genre1">Rock</option>
+              </select>
+              <span class="auto-style4">
+              <script>
+                  localStorage.setItem("genre_one", "genre1")
+              </script>
+            </p>
+            <p>
+              <label>Choose your second favorite genre: </label>
+              </span>
+              <select class="auto-style4" name="Genre0">
+                <option name = genre1">Pop</option>
+                <option name = genre1">Hip Hop / R&B</option>
+                <option name = genre1">Dance / EDM</option>
+                <option name = genre1">Country</option>
+                <option name = genre1">International</option>
+                <option name = genre1">Rock</option>
+              </select>
+              <span class="auto-style4">
+              <script>
+                  localStorage.setItem("genre_two", "genre2")
+              </script>
+            </p>
+            <p>
+              <label>Choose your third favorite genre: </label>
+              </span>
+              <select class="auto-style4" name="Genre1">
+                <option name = genre1">Pop</option>
+                <option name = genre1">Hip Hop / R&B</option>
+                <option name = genre1">Dance / EDM</option>
+                <option name = genre1">Country</option>
+                <option name = genre1">International</option>
+                <option name = genre1">Rock</option>
+              </select>
+              <span class="auto-style4">
+              <script>
+                  localStorage.setItem("genre_three", "genre3")
+              </script>
+            </p>
+            </span>
+          </fieldset>
+          <fieldset>
+
+            <legend>About You</legend>
+            <p>
+              <label>Age: </label>
+              </span>
+              <input type = "number"
+                     id = "age"
+                     value = "" class="auto-style4" /><span class="auto-style4">
+            </p>
+            <p>
+              <label>Gender: </label>
+              &nbsp;</span><select class="auto-style4">
+                <option value="Male" name="gender">Male</option>
+                <option value="Female" name="gender">Female</option>
+                <option value="Other" name="gender">Other</option>
+              </select>
+              <span class="auto-style4">
+              <script>
+                  localStorage.setItem("user_gender", "gender" )
+              </script>
+            </p>
+            <script type = "text/javascript">
+                geoFindMe();
+            </script>
+
+            </span>
+
+          </fieldset></p>
+          <ul class="list-unstyled">
+            <li>audioWide</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../startbootstrap-bare-gh-pages/vendor/jquery/jquery.min.js"></script>
+    <script src="../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
