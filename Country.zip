@@ -23,27 +23,21 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/jratnam/AudioWide/master/Audiowide-Logo.png" width="60px" height="60px"></a>
+        <a class="navbar-brand" href="#">AudioWide</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <input type="text" placeholder="Search artist name...">
-                <li class="nav-item">
-                </li>
-                <a class="nav-link" href="#">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Logout
+                    <a class="nav-link" href="#">Home
                         <span class="sr-only">(current)</span>
                     </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
-<br>
-<br>
 
 <!-- Page Content -->
 <div class="container">
@@ -52,9 +46,7 @@
 
         <div class="col-lg-3">
 
-            <h1 class="my-4">Top Genres</h1>
-            <h1 class="my-4" style="font-size: 20px" ">Country</h1>
-
+            <h1 class="my-4">Country</h1>
             <div class="list-group">
                 <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Pop</a>
                 <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Hip Hop/R&B</a>
@@ -62,14 +54,6 @@
                 <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Dance/EDM</a>
                 <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Rock</a>
                 <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">International</a>
-            </div>
-            <h1 class="my-4">Top Artists</h1>
-            <div class="list-group">
-                <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Ed Sheeran</a>
-                <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">One Repubic</a>
-                <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Coldplay</a>
-                <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Migos</a>
-                <a href="#" class="list-group-item"style="text-decoration:none; color: #44d9e6">Lauv</a>
             </div>
 
         </div>
